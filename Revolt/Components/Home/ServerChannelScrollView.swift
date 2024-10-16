@@ -61,7 +61,7 @@ struct ChannelListItem: View {
                     let res = await viewState.http.createInvite(channel: channel.id)
                     
                     if case .success(let invite) = res {
-                        inviteSheetUrl = InviteUrl(url: URL(string: "https://rvlt.gg/\(invite.id)")!)
+                        inviteSheetUrl = InviteUrl(url: URL(string: "https://app.tandemchat.ru/invite/\(invite.id)")!)
                     }
                 }
             }

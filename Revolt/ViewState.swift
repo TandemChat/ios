@@ -134,7 +134,7 @@ public class ViewState: ObservableObject {
 #endif
 
     let keychain = Keychain(service: "chat.revolt.app")
-    var http: HTTPClient = HTTPClient(token: nil, baseURL: "https://app.revolt.chat/api")
+    var http: HTTPClient = HTTPClient(token: nil, baseURL: "https://app.tandemchat.ru/api")
     var launchTransaction: any Sentry.Span
     
     @Published var ws: WebSocketStream? = nil
@@ -355,7 +355,7 @@ public class ViewState: ObservableObject {
 
         this.currentlyTyping["0"] = ["0", "1", "2", "3", "4"]
 
-        this.apiInfo = ApiInfo(revolt: "0.6.6", features: ApiFeatures(captcha: CaptchaFeature(enabled: true, key: "3daae85e-09ab-4ff6-9f24-e8f4f335e433"), email: true, invite_only: false, autumn: RevoltFeature(enabled: true, url: "https://autumn.revolt.chat"), january: RevoltFeature(enabled: true, url: "https://jan.revolt.chat"), voso: VortexFeature(enabled: true, url: "https://vortex.revolt.chat", ws: "wss://vortex.revolt.chat")), ws: "wss://ws.revolt.chat", app: "https://app.revolt.chat", vapid: "BJto1I_OZi8hOkMfQNQJfod2osWBqcOO7eEOqFMvCfqNhqgxqOr7URnxYKTR4N6sR3sTPywfHpEsPXhrU9zfZgg=")
+        this.apiInfo = ApiInfo(revolt: "0.6.6", features: ApiFeatures(captcha: CaptchaFeature(enabled: true, key: "3daae85e-09ab-4ff6-9f24-e8f4f335e433"), email: true, invite_only: false, autumn: RevoltFeature(enabled: true, url: "https://app.tandemchat.ru/autumn"), january: RevoltFeature(enabled: true, url: "https://app.tandemchat.ru/january"), voso: VortexFeature(enabled: true, url: "https://vortex.rus-land.fun", ws: "wss://vortex.rus-land.fun")), ws: "wss://app.tandemchat.ru/ws", app: "https://app.tandemchat.ru", vapid: "BJto1I_OZi8hOkMfQNQJfod2osWBqcOO7eEOqFMvCfqNhqgxqOr7URnxYKTR4N6sR3sTPywfHpEsPXhrU9zfZgg=")
 
         return this
     }

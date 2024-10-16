@@ -175,9 +175,9 @@ struct MessageContentsView: View {
                 
                 Button {
                     if let server = viewModel.server {
-                        copyUrl(url: URL(string: "https://revolt.chat/app/server/\(server.id)/channel/\(viewModel.channel.id)/\(viewModel.message.id)")!)
+                        copyUrl(url: URL(string: "https://app.tandemchat.ru/server/\(server.id)/channel/\(viewModel.channel.id)/\(viewModel.message.id)")!)
                     } else {
-                        copyUrl(url: URL(string: "https://revolt.chat/app/channel/\(viewModel.channel.id)/\(viewModel.message.id)")!)
+                        copyUrl(url: URL(string: "https://app.tandemchat.ru/channel/\(viewModel.channel.id)/\(viewModel.message.id)")!)
                         
                     }
                 } label: {

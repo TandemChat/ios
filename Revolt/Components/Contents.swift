@@ -743,7 +743,7 @@ struct InnerContents: UIViewRepresentable {
                     view.label = UILabel()
                     view.label.text = "Hello"
                     textview.addSubview(view)
-                    view.imageView.kf.setImage(with: URL(string: "https://autumn.revolt.chat/emojis/\(id)")!, placeholder: .none)
+                    view.imageView.kf.setImage(with: URL(string: "https://app.tandemchat.ru/autumn/emojis/\(id)")!, placeholder: .none)
                     
                     attrString.insert(NSAttributedString(attachment: SubviewTextAttachment(view: view, size: CGSize(width: fontSize, height: fontSize))), at: lowerInt)
                     

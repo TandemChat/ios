@@ -15,16 +15,16 @@ struct RevoltApp: App {
     @StateObject var state = ViewState.shared ?? ViewState()
 
     init() {
-        if !isPreview {
-            SentrySDK.start { options in
-                options.dsn = "https://4049414032e74d9098a44e67779aa648@sentry.revolt.chat/7"
-                options.tracesSampleRate = 1.0
-                options.profilesSampleRate = 1.0
-                options.attachViewHierarchy = true
-                options.enableAppLaunchProfiling = true
-                options.enableMetrics = true
-            }
-        }
+//        if !isPreview {
+//            SentrySDK.start { options in
+//                options.dsn = "https://4049414032e74d9098a44e67779aa648@sentry.revolt.chat/7"
+//                options.tracesSampleRate = 1.0
+//                options.profilesSampleRate = 1.0
+//                options.attachViewHierarchy = true
+//                options.enableAppLaunchProfiling = true
+//                options.enableMetrics = true
+//            }
+//        }
     }
 
     var body: some Scene {

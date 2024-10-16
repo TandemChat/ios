@@ -10,7 +10,7 @@ import os
 import Intents
 import Types
 
-let logger = Logger(subsystem: "app.revolt.chat", category: "notificationd")
+let logger = Logger(subsystem: "app.tandemchat.ru", category: "notificationd")
 
 
 func getMessageIntent(_ notification: UNNotificationContent) -> INSendMessageIntent? {

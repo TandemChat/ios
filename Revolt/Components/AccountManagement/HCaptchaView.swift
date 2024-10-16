@@ -68,7 +68,7 @@ struct HCaptchaView: View {
 
 #Preview {
     var viewState = ViewState.preview()
-    return HCaptchaView(apiKey: viewState.apiInfo!.features.captcha.key, baseURL: "https://api.revolt.chat/", result: .constant(nil))
+    return HCaptchaView(apiKey: viewState.apiInfo!.features.captcha.key, baseURL: "https://app.tandemchat.ru/api", result: .constant(nil))
 }
 
 #endif

@@ -84,13 +84,13 @@ struct Welcome: View {
                     Spacer()
                     
                     Group {
-                        Link("Terms of Service", destination: URL(string: "https://revolt.chat/terms")!)
+                        Link("Terms of Service", destination: URL(string: "https://tandemchat.ru/terms")!)
                             .font(.footnote)
                             .foregroundColor(Color(white: 0.584))
-                        Link("Privacy Policy", destination: URL(string: "https://revolt.chat/privacy")!)
+                        Link("Privacy Policy", destination: URL(string: "https://tandemchat.ru/privacy")!)
                             .font(.footnote)
                             .foregroundColor(Color(white: 0.584))
-                        Link("Community Guidelines", destination: URL(string: "https://revolt.chat/aup")!)
+                        Link("Community Guidelines", destination: URL(string: "https://tandemchat.ru/aup")!)
                             .font(.footnote)
                             .foregroundColor(Color(white: 0.584))
                     }
