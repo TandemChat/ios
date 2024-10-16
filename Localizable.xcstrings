@@ -4,6 +4,9 @@
     "" : {
 
     },
+    ":" : {
+
+    },
     "(edited)" : {
 
     },
@@ -32,19 +35,22 @@
         }
       }
     },
-    "%@ code" : {
-
-    },
     "%lld" : {
 
     },
     "%lld of 100 members" : {
 
     },
+    "%lld users" : {
+
+    },
     "About" : {
 
     },
     "Accent" : {
+
+    },
+    "Accept Invite" : {
 
     },
     "Account Info" : {
@@ -98,6 +104,9 @@
     "Bans" : {
 
     },
+    "Bans - %lld" : {
+
+    },
     "Bio" : {
 
     },
@@ -113,11 +122,14 @@
     "Cancel" : {
 
     },
+    "Cancel Friend Request" : {
+
+    },
     "Categories" : {
 
     },
     "Change it" : {
-      "comment" : "'done' button for changing username"
+      "comment" : "'done' button for changing password\n'done' button for changing username"
     },
     "Change Password" : {
 
@@ -125,14 +137,14 @@
     "Channel Icon" : {
 
     },
+    "Channel Name" : {
+
+    },
     "Client Settings" : {
 
     },
     "code" : {
       "comment" : "TOTP code"
-    },
-    "Code or link" : {
-
     },
     "Code time" : {
       "comment" : "debug print, dont translate"
@@ -150,6 +162,9 @@
 
     },
     "Confirm disabling your account" : {
+
+    },
+    "Connected" : {
 
     },
     "Connecting..." : {
@@ -182,6 +197,9 @@
     "Create" : {
 
     },
+    "Create a new role" : {
+
+    },
     "Create a new server" : {
 
     },
@@ -189,6 +207,12 @@
 
     },
     "Create Group" : {
+
+    },
+    "Create Invite" : {
+
+    },
+    "Create Role" : {
 
     },
     "Created %lld day(s) ago" : {
@@ -203,6 +227,9 @@
     "Dark" : {
 
     },
+    "Default" : {
+
+    },
     "Delete" : {
 
     },
@@ -210,6 +237,9 @@
       "comment" : "User settings button"
     },
     "Delete channel" : {
+
+    },
+    "Delete role" : {
 
     },
     "Delete server" : {
@@ -230,6 +260,12 @@
     "Disable Account" : {
       "comment" : "User settings button"
     },
+    "Disabled" : {
+
+    },
+    "Disconnected" : {
+
+    },
     "Discovery" : {
 
     },
@@ -240,6 +276,12 @@
 
     },
     "Edit" : {
+
+    },
+    "Edit Permissions" : {
+
+    },
+    "Edit profile" : {
 
     },
     "Edit Server Profile" : {
@@ -254,13 +296,16 @@
     "Email Token" : {
 
     },
+    "Emoji Name" : {
+
+    },
     "Emojis" : {
 
     },
-    "Ending" : {
+    "Emojis - %lld" : {
 
     },
-    "enter" : {
+    "Enter a link like rvlt.gg/Testers or an invite code like Testers" : {
 
     },
     "Enter a new username" : {
@@ -293,9 +338,6 @@
     "Focus" : {
 
     },
-    "foo" : {
-
-    },
     "Force remote notification upload" : {
 
     },
@@ -320,6 +362,9 @@
     "Go back" : {
 
     },
+    "Group TODO" : {
+
+    },
     "Hello, World!" : {
 
     },
@@ -338,6 +383,9 @@
     "Idle" : {
 
     },
+    "Invalid invite" : {
+
+    },
     "Invisible" : {
 
     },
@@ -347,10 +395,16 @@
     "Invite another user" : {
 
     },
+    "Invite code or link" : {
+
+    },
     "Invite Users" : {
 
     },
     "Invite your friends" : {
+
+    },
+    "Invited by" : {
 
     },
     "Invites" : {
@@ -360,6 +414,9 @@
 
     },
     "Join by invite code or link" : {
+
+    },
+    "Join Invite" : {
 
     },
     "Joined" : {
@@ -386,6 +443,9 @@
     "Light" : {
 
     },
+    "Loading" : {
+
+    },
     "Loading Data..." : {
       "comment" : "User setings notice - still fetching data"
     },
@@ -402,6 +462,12 @@
 
     },
     "Logout" : {
+
+    },
+    "Looks a bit empty in here." : {
+
+    },
+    "Mark as read" : {
 
     },
     "Members" : {
@@ -428,6 +494,12 @@
     "My Account" : {
 
     },
+    "Name" : {
+
+    },
+    "NEW" : {
+
+    },
     "New Group" : {
 
     },
@@ -440,10 +512,19 @@
     "Next" : {
 
     },
+    "No ban reason." : {
+
+    },
     "No hcaptcha support" : {
 
     },
+    "Notification options" : {
+
+    },
     "Notifications" : {
+
+    },
+    "NSFW" : {
 
     },
     "Offline" : {
@@ -473,9 +554,6 @@
     "Pick a category" : {
 
     },
-    "Placeholder" : {
-
-    },
     "Please note that this does not get sent to this server's moderators" : {
 
     },
@@ -497,8 +575,17 @@
     "React" : {
 
     },
+    "Reactions" : {
+
+    },
+    "Reconnecting" : {
+
+    },
     "Regenerate Recovery Codes" : {
       "comment" : "User settings button"
+    },
+    "Remove" : {
+
     },
     "Remove Authenticator" : {
       "comment" : "User settings button"
@@ -518,6 +605,9 @@
     "Reset Password" : {
 
     },
+    "Revoke" : {
+
+    },
     "Revolt" : {
 
     },
@@ -525,6 +615,15 @@
 
     },
     "Revolt is one of the best ways to stay connected with your friends and community, anywhere, anytime." : {
+
+    },
+    "Role Colour" : {
+
+    },
+    "Role Name" : {
+
+    },
+    "Role Rank" : {
 
     },
     "Roles" : {
@@ -545,13 +644,25 @@
     "Secondary Background" : {
 
     },
+    "Select Emoji" : {
+
+    },
     "Select File" : {
+
+    },
+    "Select permission" : {
 
     },
     "Select Photo" : {
 
     },
     "Select Username" : {
+
+    },
+    "Send Message" : {
+
+    },
+    "Server Banner" : {
 
     },
     "Server Description" : {
@@ -585,6 +696,12 @@
 
     },
     "Submit" : {
+
+    },
+    "System Messages" : {
+
+    },
+    "Tap to reconnect" : {
 
     },
     "Tell us what's wrong with this message" : {
@@ -644,7 +761,7 @@
     "Unknown message" : {
 
     },
-    "use a %@ code" : {
+    "Upload Emoji" : {
 
     },
     "User Management" : {
@@ -669,6 +786,9 @@
 
     },
     "Wait!" : {
+
+    },
+    "Webhook" : {
 
     },
     "Welcome to" : {
