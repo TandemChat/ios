@@ -56,7 +56,7 @@
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="1" colorSpace="custom" customColorSpace="sRGB" />
                     </view>
                     <connections>
                         <outlet property="connectionProblemView" destination="TpV-I7-c6z" id="76F-WR-UnJ"/>
